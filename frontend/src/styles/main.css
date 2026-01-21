@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "PingFang SC", "Microsoft YaHei", sans-serif;
+  background: #f5f7fb;
+  color: #0f172a;
+}
+
+.el-card {
+  border-radius: 16px;
+}
+
+.el-table {
+  border-radius: 16px;
+}
