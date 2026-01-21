@@ -45,6 +45,16 @@
 ```
 .
 ├── pom.xml
+├── frontend
+│   ├── index.html
+│   ├── package.json
+│   ├── vite.config.ts
+│   └── src
+│       ├── layouts
+│       ├── router
+│       ├── stores
+│       ├── styles
+│       └── views
 └── src
     └── main
         ├── java
@@ -69,9 +79,16 @@ mvn spring-boot:run
 curl http://localhost:8080/api/health
 ```
 
+### 前端开发
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 ## 简历描述模板（可调整）
 
 - 设计并实现智慧停车运营平台（ParkOps），覆盖车场/车位管理、计费、订单、优惠、报表等核心模块
 - 采用 Spring Boot + REST API 构建后端，规划 1 个月交付节奏，拆分每周里程碑
 - 通过统一接口规范与模块化设计，支持后续扩展为微服务与多租户场景
-
